@@ -21,6 +21,17 @@ Color Palette:
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+    color:#fffcf4;
+    font-spacing: 0.6rem;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    transition: 0.2s ease-in-out;
+}
 
 #Hero{
     height: 100vh;
