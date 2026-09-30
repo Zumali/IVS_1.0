@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Desktop Styles */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Hero{
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    border: 2px solid #412f26;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4rem;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+#HeroContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+li{
+    list-style-position: inside;
+    padding-left: 1rem;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+/* Tablet and Small Laptops */
+
+@media (max-width: 768px) {
+    body{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    #Hero{
+        width: 90%;
+        padding: 1rem;
+        row-gap: 2rem;
+    }
+
+    #HeroContainer{
+        row-gap: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        font-size: 0.8rem;
+    }
+
+    #Hero{
+        width: 95%;
+        padding: 1rem;
+        row-gap: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    #HeroContainer{
+        row-gap: 0.2rem;
+    }
+}
